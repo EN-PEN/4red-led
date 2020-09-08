@@ -43,4 +43,4 @@ delay(300);
 
 
 
-圖如下:
+圖如下:![image](https://github.com/EN-PEN/4red-led/blob/master/IMG20200908142656.jpg)
