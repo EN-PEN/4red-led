@@ -1,4 +1,4 @@
-方案一
+方案一(土法煉鋼)
 void setup() {
   // put your setup code here, to run once:
 pinMode (1,OUTPUT);
@@ -25,6 +25,7 @@ delay(100);
 
 
 方案二(迴圈)
+```C++
 void setup() {
   // put your setup code here, to run once:
 for(int i=2;i<6;i++)
@@ -40,7 +41,7 @@ delay(300);
   digitalWrite(i,HIGH);
 delay(300);
 }
-
+```
 
 
 圖如下:![image](https://github.com/EN-PEN/4red-led/blob/master/IMG20200908142656.jpg)
