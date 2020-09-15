@@ -1,4 +1,4 @@
-方案一(土法煉鋼)
+方案一(土法煉鋼) (如同第一次做的)
 void setup() {
   // put your setup code here, to run once:
 pinMode (1,OUTPUT);
@@ -28,18 +28,18 @@ delay(100);
 ```C++
 void setup() {
   // put your setup code here, to run once:
-for(int i=2;i<6;i++)
-pinMode (i,OUTPUT);
+for(int i=2;i<6;i++)(設定變數)(遞增)(2~6)
+pinMode (i,OUTPUT);(設定MOD繳為OUTPUT)
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
-  for(int i=2;i<6;i++)
-  digitalWrite(i,LOW);
-delay(300); 
+  for(int i=2;i<6;i++)(遞增)(2~6)
+  digitalWrite(i,LOW);(暗)
+delay(300); (延遲)(遞增)(2~6)
    for(int i=2;i<6;i++)
-  digitalWrite(i,HIGH);
-delay(300);
+  digitalWrite(i,HIGH);(亮)
+delay(300);(延遲)
 }
 ```
 
