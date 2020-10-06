@@ -1,46 +1,46 @@
 方案一(土法煉鋼) (如同第一次做的)
-void setup() {
-  // put your setup code here, to run once:
-pinMode (1,OUTPUT);
-pinMode (2,OUTPUT);
-pinMode (3,OUTPUT);
-pinMode (4,OUTPUT);
-}
+void setup() {<br>
+  // put your setup code here, to run once:<br><br>
+pinMode (1,OUTPUT);<br>
+pinMode (2,OUTPUT);<br>
+pinMode (3,OUTPUT);<br>
+pinMode (4,OUTPUT);<br>
+}<br>
 
-void loop() {
-  // put your main code here, to run repeatedly:
-digitalWrite(1,LOW);
-digitalWrite(2,LOW);
-digitalWrite(3,LOW);
-digitalWrite(4,LOW);
-delay(100);
+void loop() {<br>
+  // put your main code here, to run repeatedly:<br>
+digitalWrite(1,LOW);<br>
+digitalWrite(2,LOW);<br>
+digitalWrite(3,LOW);<br>
+digitalWrite(4,LOW);<br>
+delay(100);<br>
 
 
-digitalWrite(1,HIGH);
-digitalWrite(2,HIGH);
-digitalWrite(3,HIGH);
-digitalWrite(4,HIGH);
-delay(100);
-}
+digitalWrite(1,HIGH);<br>
+digitalWrite(2,HIGH);<br>
+digitalWrite(3,HIGH);<br>
+digitalWrite(4,HIGH);<br>
+delay(100);<br>
+}<br>
 
 
 方案二(迴圈)
 ```C++
-void setup() {
-  // put your setup code here, to run once:
-for(int i=2;i<6;i++)(設定變數)(遞增)(2~6)
-pinMode (i,OUTPUT);(設定MOD繳為OUTPUT)
-}
+void setup() {<br>
+  // put your setup code here, to run once:<br>
+for(int i=2;i<6;i++)(設定變數)(遞增)(2~6)<br>
+pinMode (i,OUTPUT);(設定MOD繳為OUTPUT)<br>
+}<br>
 
-void loop() {
-  // put your main code here, to run repeatedly:
-  for(int i=2;i<6;i++)(遞增)(2~6)
-  digitalWrite(i,LOW);(暗)
-delay(300); (延遲)(遞增)(2~6)
-   for(int i=2;i<6;i++)
-  digitalWrite(i,HIGH);(亮)
-delay(300);(延遲)
-}
+void loop() {<br>
+  // put your main code here, to run repeatedly:<br>
+  for(int i=2;i<6;i++)(遞增)(2~6)<br>
+  digitalWrite(i,LOW);(暗)<br>
+delay(300); (延遲)(遞增)(2~6)<br>
+   for(int i=2;i<6;i++)<br>
+  digitalWrite(i,HIGH);(亮)<br>
+delay(300);(延遲)<br>
+}<br>
 ```
 
 
